@@ -1,7 +1,6 @@
 server:
   port: 8080
 
-
 spring:
   application:
     name: api-getway
@@ -11,5 +10,5 @@ spring:
         - id: location-webservice
           uri: http://localhost:8081/
           predicates:
-            - Path=/location-webservice/**
+            - Path=/api-location/**
 # eureka.client.serviceUrl.defaultZone: http://localhost:8761/
