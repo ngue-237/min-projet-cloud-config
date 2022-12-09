@@ -32,7 +32,11 @@ spring:
           uri: http://localhost:8081/
           predicates:
             - Path=/car-location-service/**
-        # - id: studentModule
-        #   uri: http://localhost:8082/student-service
-        #   predicates:
-        #     - Path=/student-service/**
+        - id: userModule
+          uri: http://localhost:8082/
+          predicates:
+            - Path=/gestion-user/**
+        - id: vehiculeModule
+          uri: http://localhost:8083/
+          predicates:
+            - Path=/vehicule-service/**
