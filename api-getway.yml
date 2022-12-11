@@ -35,7 +35,7 @@ spring:
         - id: userModule
           uri: http://localhost:8082/
           predicates:
-            - Path=/gestion-user/**
+            - Path=/userManager/**
         - id: vehiculeModule
           uri: http://localhost:8083/
           predicates:
