@@ -40,3 +40,7 @@ spring:
           uri: http://localhost:8083/
           predicates:
             - Path=/vehicule-service/**
+        - id: maintenanceModule
+          uri: http://localhost:8084/
+          predicates:
+            - Path=/maintenace/**
