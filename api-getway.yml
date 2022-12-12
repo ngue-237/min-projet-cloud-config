@@ -42,6 +42,6 @@ spring:
             - Path=/api/vehicules/**
             - Path=/vehicule-service/**
         - id: maintenanceModule
-          uri: http://localhost:8084/
+          uri: http://localhost:3000/
           predicates:
             - Path=/maintenace/**
